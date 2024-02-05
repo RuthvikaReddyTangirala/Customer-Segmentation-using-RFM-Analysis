@@ -15,7 +15,7 @@ import seaborn as sns
 from mpl_toolkits.mplot3d import Axes3D
 
 #reading the preprocessed dataset
-df = pd.read_csv(r'C:\Users\RUTHVIKA REDDY\OneDrive\Desktop\Projects\Customer Segmentation\data_preprocessed.csv')
+df = pd.read_csv("data\data_preprocessed.csv")
 
 # Calculate Recency (R)
 df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])

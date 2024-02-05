@@ -8,7 +8,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #reading the dataset
-file_path =  r"C:\Users\RUTHVIKA REDDY\OneDrive\Desktop\Projects\Customer Segmentation\data.csv"  
+file_path = "data\data.csv" 
+
 
 # Replace missing values for a string feature
 missing_values = ["n.a.", "NA", "n/a", "na"]
@@ -84,6 +85,6 @@ print("percent of data that is missing after handling missing values:\n", (df.is
 
 print("Summary of the dataset\n", df.describe()) #displaying the summary of each columns after handling missing values 
 
-df.to_csv(r"C:\Users\RUTHVIKA REDDY\OneDrive\Desktop\Projects\Customer Segmentation\data_preprocessed.csv", index = False) #downloading the preprocessed dataset
+df.to_csv("data\data_preprocessed.csv", index = False) #downloading the preprocessed dataset
 
 print("Download Complete")
