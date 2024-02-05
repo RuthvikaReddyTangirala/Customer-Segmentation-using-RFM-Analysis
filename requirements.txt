@@ -1,0 +1,8 @@
+pandas
+numpy
+seaborn
+matplotlib
+datetime
+sklearn
+textblob
+mpl_toolkits
