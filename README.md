@@ -228,4 +228,152 @@ Run the visualization script to generate the charts. Adjust the script as necess
 
 ![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/78d1987e-3b72-4744-93f2-5ce5097475c8)
 
+## Customer Insights Analysis
 
+### Customer Analysis 
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/146e61fe-8f4c-4722-b571-592db8200ab7)
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/5674106b-c201-4a68-b3e3-9e8cea9a6a72)
+
+The average number of orders per customer is 4. The minimum no.of orders per customer is 1 and the maximum no.of orders per customer is 209. 
+
+### Product Analysis 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/917f2fc7-d878-4cf9-933e-4a2ce394fe97)
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/977d2776-25d9-4df0-91c2-3777bd98d8a4)
+
+### Time Analysis 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/60e5cfc9-b10b-4b2c-9afb-ebbc4e0045f6)
+
+The average order processing time is: 0 days 00:01:20.285854438. The result "0 days 00:01:2 0.285854438" indicates that, on average, there is approximately 1 minute and 20 seconds of p rocessing time between consecutive orders based on the assumption that the processing time i s the time between placing the current order and placing the next one. 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/b64cf3e0-528a-408c-9370-cf70cadb25ae)
+
+•	As the data contains mostly one year of the data it is hard to determine if there are any seasonalities. 
+•	From the given data it can be seen that orders has increased towards the end of the year. 
+•	It has increased from the fall season, may be due to start of holiday season. 
+•	It has peaked in the month of November, which can be explained with the heavy purchasing during thanksgiving and black Friday season. 
+
+### Geographical Analysis 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/d23635d3-480f-4a52-b038-678fe4dd6e7e)
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/c566155f-1464-407b-b75b-8e426daf3225)
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/ceeb91f3-df85-4ebf-86c5-53042c4921d3)
+
+Correlation coefficient of -0.47 suggests a moderate negative correlation between the country of the customer and the number of orders. This implies that, on average, as the number of orders increases for a particular country, the average order value tends to decrease. 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/729e9c85-9879-4447-85c2-cf5d9d9dccaf)
+
+### Payment Analysis 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/1c4c3071-500d-492b-9409-1c36ddb82ba9)
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/aeb6848d-8674-46fd-81f6-6419c9546211)
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/71a36e4a-2ca6-43d3-9db1-360c4fa8748d)
+
+Overall Correlation between Payment Methods and Order Amount: 0.1120 
+
+- The overall correlation value between payment methods and the order amount is 0.1121. This value indicates a very weak positive correlation on average. 
+- This correlation coefficient is very small, suggesting that there is no significant linear relationship between the payment method and the order amount. 
+- In other words, the choice of payment method does not appear to have a substantial impact on the total order amount based on the linear correlation analysis.
+
+### Customer Behaviour 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/887efd7b-513f-4c5d-a760-f62e13ec8a58)
+
+Recency: 
+•	The average recency (mean) is approximately 91 days, suggesting that, on average, customers made their most recent purchase around 91 days ago. 
+•	The minimum recency is 0, indicating that some customers made a purchase very recently. 
+•	The maximum recency is 373, indicating that some customers made their last purchase a considerable time ago. 
+Frequency: 
+•	The average frequency (mean) is around 91.86, indicating that, on average, customers made around 92 purchases. 
+•	The minimum frequency is 1, indicating that some customers made only one purchase. 
+•	The maximum frequency is 7812, indicating that some customers made a very high number of purchases. 
+Monetary: 
+•	The average monetary value (mean) is approximately 1893.53, suggesting that, on average, customers spent around 1893.53 dollars . 
+•	The minimum monetary value is negative (-4287.63), indicating that some customers have negative order values (possibly due to refunds or returns). 
+•	The maximum monetary value is 279,489.02 dollars, indicating that some customers have made very high-value purchases. 
+Inferences: 
+•	There is a wide range of recency, suggesting that there are both recent and long-time customers. 
+•	The distribution of frequency indicates that while many customers make a moderate number of purchases, there are also customers who make a very high number of purchases. 
+•	The monetary values vary widely, with some customers making high-value purchases. 
+
+### Returns and Refunds 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/548be506-6000-470a-9994-4ba0450b2eaa)
+
+The return rate of the other category is high compared to the rest of the categories, which shows that they are correlated to an extent.
+
+We can see that there is very less positive and negative correlation between returns and the products which says that there is not much high chance of returning the product based on the categories. 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/e6b2d61e-707b-4d17-92b2-18d1e935e434)
+
+
+### Profitability Analysis 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/59dd835d-1e8c-49d5-8a8c-3dc18c1a4d45)
+
+Total Revenue generated from the products: 8278519.423999998 
+
+### Customer Satisfaction 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/5409a7c8-8ada-48e4-899e-30f1900fef1e)
+
+Product with the Best Rating: BLUE/NAT SHELL NECKLACE W PENDANT 
+
+Product with the Worst Rating: ASSORTED COLOUR SILK GLASSES CASE 
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/b04d4a37-501a-4d1d-9463-f80daaa9df9b)
+
+
+![image](https://github.com/RuthvikaReddyTangirala/Customer-Segmentation-using-RFM-Analysis/assets/113473457/2555af53-fab9-4fb5-bffc-9bf6b1711976)
+
+Average Sentiment: 0.316849944223663 
+
+The average sentiment score of approximately 0.32 suggests that, on average, the sentiment expressed in the feedback column is positive. 
+
+With an average sentiment score of 0.32: 
+The majority of the predefined comments associated with star ratings are leaning towards positive expressions. Customers, on average, use language in the comments that reflects a positive sentiment or satisfaction. 
+
+## SUMMARY 
+
+Customer cluster analysis reveals three segments based on recency, frequency, and value. Cluster 1: recently active but less frequent/lower value customers - needs targeted engagement. Cluster 2: highly valuable, active, regular customers - need personalized strategies. Cluster 3: less recent, moderately frequent, lower-value customers - need reactivation efforts. 
+ 
+To make the most of insights: 
+1.	Tailor marketing communication for each segment and use a multichannel approach. 
+2.	Personalize messages, recommendations, and promotions with customer data. 
+3.	Collect feedback from each segment for continuous improvement. 
+ 
+"WHITE HANGING HEART T-LIGHT HOLDER" is the most purchased product among the top 10, while "PAPER CRAFT, LITTLE BIRDIE" generates the highest revenue. Use this information to guide inventory management and promotions for better business success. Order processing time takes around 1 minute and 20 seconds between consecutive orders. Apple Pay is the most common payment method, but it has a weak correlation with order amount. 
+ 
+On average, customers are active for about 13 days and 18 hours. The customer base is diverse, with moderate and high purchase frequency and varying monetary values. Finally, the average sentiment score of 0.32 from customer feedback suggests a generally positive tone in the comments associated with star ratings. This indicates that customers express satisfaction and positive experiences in their feedback. These insights help understand customer behavior, preferences, and satisfaction levels, offering guidance for business strategies and improvements. 
+ 
+LIMITATIONS AND FUTURE WORK 
+ 
+It is important to take into account the various constraints of the analysis. First off, the caliber of the dataset used has a significant impact on the caliber of the outcomes. Any errors, omissions, or discrepancies in the dataset might jeopardize the reliability of the conclusions. Furthermore, the dataset's very short time span—December 1, 2010 to December 9, 2011—may make it difficult to identify long-term patterns or seasonality, which might restrict the capacity to gather thorough observations on consumer behavior. In addition, a complete profitability analysis is impeded by the lack of cost information for the items, which makes it difficult to compute profit margins and evaluate the products' overall financial health. 
+
+In order to improve the study and overcome these constraints, future work should concentrate on enhancing data quality by means of stringent cleaning and validation procedures. A more comprehensive assessment of trends and patterns might be possible by extending the dataset's coverage span. To ensure a thorough profitability analysis, real product cost information must be included. It is best to use actual payment method data rather than estimated possibilities in order to comprehend client payment preferences. In addition, adding real customer evaluations and comments might help future analyses do sentiment analysis more accurately. More sophisticated client segmentation strategies might be investigated, and dynamic product categorization techniques like natural language processing can take the place of the conventional keywordbased strategy. 
+
+For any questions or further information, please reach out to Ruthvika Reddy Tangirala at ruthvikareddytangirala20@gmail.com (or) through LinkedIn www.linkedin.com/in/ruthvikareddytangirala
