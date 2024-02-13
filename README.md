@@ -370,7 +370,7 @@ To make the most of insights:
  
 On average, customers are active for about 13 days and 18 hours. The customer base is diverse, with moderate and high purchase frequency and varying monetary values. Finally, the average sentiment score of 0.32 from customer feedback suggests a generally positive tone in the comments associated with star ratings. This indicates that customers express satisfaction and positive experiences in their feedback. These insights help understand customer behavior, preferences, and satisfaction levels, offering guidance for business strategies and improvements. 
  
-LIMITATIONS AND FUTURE WORK 
+## LIMITATIONS AND FUTURE WORK 
  
 It is important to take into account the various constraints of the analysis. First off, the caliber of the dataset used has a significant impact on the caliber of the outcomes. Any errors, omissions, or discrepancies in the dataset might jeopardize the reliability of the conclusions. Furthermore, the dataset's very short time span—December 1, 2010 to December 9, 2011—may make it difficult to identify long-term patterns or seasonality, which might restrict the capacity to gather thorough observations on consumer behavior. In addition, a complete profitability analysis is impeded by the lack of cost information for the items, which makes it difficult to compute profit margins and evaluate the products' overall financial health. 
 
