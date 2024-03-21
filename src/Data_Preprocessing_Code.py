@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #reading the dataset
-file_path = "data\data.csv" 
+file_path = r"data\data.csv" 
 
 
 # Replace missing values for a string feature

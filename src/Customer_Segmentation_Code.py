@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
 #reading the preprocessed dataset
-df = pd.read_csv(r'C:\Users\RUTHVIKA REDDY\OneDrive\Desktop\Projects\Customer Segmentation\data_preprocessed.csv')
+df = pd.read_csv(r'data\data_preprocessed.csv')
 
 df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])
 
@@ -144,3 +144,5 @@ segment_profiles.columns = ['Cluster', 'RecencyMean', 'RecencyMin', 'RecencyMax'
 
 # Display the segment profiles
 print (segment_profiles)
+
+print("completed")
